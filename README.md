@@ -2,7 +2,7 @@
 
 ## リンク集
 
-- [アイデア集](https://hackmd.io/@nK6UHz74RWC9ow6D732aZw/Sk_EeY2oT)
+- [アイデア集](./ideas.md)
 
 ## 提案書
 
