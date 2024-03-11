@@ -177,13 +177,13 @@ gantt
 
     section マイルストーン
       MITOUサポート期間	:a, 2024-6-24, 256d
-      プロトタイピング	 :b0, 2024-6-24, 69d
-      機能追加+テスト  :b1, after b0, 61d
-		営業と改善: b2, after b1, 126d
+      プロトタイピング	 :b0, 2024-4-01, 91d
+      テストと修正  :b1, after b0, 61d
+		競争力の下地づくり: b2, after b1, 126d
     section 開発計画
-      ドメイン設計: domain, 2024-6-01, 24d
-		デザイン: design, 2024-6-01, 24d
-		レシピ作成機能: recipe-editor, after design, 21d
+      ドメイン設計: domain, 2024-4-01, 24d
+		  デザイン: design, 2024-4-01, 24d
+		  レシピ作成機能: recipe-editor, after design, 21d
       ユーザー情報管理システム: user-manager, after design, 21d
       レシピ実行計画システム: recipe-planner, after user-manager, 26d
       レシピナビゲーションシステム: recipe-cockpit, after user-manager, 26d
@@ -191,11 +191,13 @@ gantt
       レシピ検索システム: recipe-search, after recipe-cockpit, 21d
       レシピのテストデータ追加と改善点洗い出し: refactor1, after recipe-search, 61d
       各機能の追加修正と細やかな調整: refactor2, after recipe-search, 61d
-      テストユーザーに触ってもらってPDCA: testuser, after refactor2, 125d
+      テストユーザーを用いたPDCA: testuser, after refactor2, 125d
       法人向けに営業をかけ要望だし: corporate-sales, after refactor2, 125d
       多言語対応: multi-language, after refactor2, 125d
-      VRデバイスの選定と出力対応: introduce-vr, after refactor2, 62d
+      VRデバイスへの出力対応: introduce-vr, after refactor2, 62d
       VRデバイスからの入力対応: application-vr, after introduce-vr, 63d
+      世界に向け公開: publish-to-world, after application-vr, 62d
+      法人向けSDK実装: publish-to-world, after application-vr, 62d
 ```
 
 ## 開発にかかわる時間帯と時間数
