@@ -8,5 +8,5 @@
 
 - [テンプレ](./template.md)
 - [デジタル手順書プラットフォーム](./application1.md)
-- [ユーザーに合わせた補助で誰もが自炊できるようになるVRを用いた自炊支援システム](./application2-rewrited.md)
+- [ユーザーに合わせて自炊を補助するVRを用いた自炊支援システム](./application2-rewrited.md)
 - 
